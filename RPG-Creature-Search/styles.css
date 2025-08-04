@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    background: #f8f8f8;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 16px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.search-bar input {
+    padding: 6px;
+    font-size: 1em;
+}
+
+.search-bar button {
+    padding: 6px 12px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.card {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    background: #fafafa;
+}
+
+.creature-header {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.creature-details {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 12px;
+    font-size: 0.95em;
+}
+
+.creature-stats table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.creature-stats td {
+    padding: 4px 6px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95em;
+}
